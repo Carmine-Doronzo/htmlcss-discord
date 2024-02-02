@@ -19,6 +19,8 @@ a{
     color: currentColor;
 }
 
+
+
 /*layot*/
 .container{
     max-width: 1000px;
@@ -47,7 +49,10 @@ a{
     min-width: 5px;
 }
 
-.link{
+.login{
+    border: 1px solid white;
+    border-radius: 35%;
+
 
 }
 
@@ -79,8 +84,8 @@ a{
     flex-grow: 1;
 }
 .height{
-    height: 400px;
-    width: 400px;
+    min-height: 400px;
+    min-width: 400px;
 }
 
 .marg{
@@ -94,6 +99,9 @@ a{
 
 .gap{
     gap: 10px;
+}
+.padd{
+    padding: 10px;
 }
 
 
