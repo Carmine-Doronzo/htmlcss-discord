@@ -24,7 +24,8 @@ a{
 
 /*layot*/
 .container{
-    width: 1000px;
+    min-width: 100%;
+    min-height: 100%;
     
 }
 
@@ -188,6 +189,9 @@ a{
     background-position: center;
 }
 
+.bg-star{
+    background-image: url("../img/stars.svg");
+}
 
 
 
