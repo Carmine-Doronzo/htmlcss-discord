@@ -17,13 +17,15 @@ ul,ol,menu{
 a{
     text-decoration: none;
     color: currentColor;
+    display: inline-block;
 }
 
 
 
 /*layot*/
 .container{
-    max-width: 1000px;
+    max-width: 100%;
+    max-height: 1000px;
 }
 
 .row{
@@ -41,8 +43,8 @@ a{
 }
 
 .column-main{
-    height: 100px;
-    width: 100px;
+    
+    min-width: 10%;
 }
 
 .column-foot{
@@ -60,6 +62,11 @@ a{
 /*utility*/
 .just{
     justify-content: space-between;
+}
+
+.just-center{
+    
+    text-align: center;
 }
 
 .just-around{
@@ -89,7 +96,7 @@ a{
 }
 
 .marg{
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .bord{
@@ -104,7 +111,13 @@ a{
     padding: 10px;
 }
 
+.marg-left{
+    margin: 0% 5%;
+}
 
+.marg-top{
+    margin: 2% 0%;
+}
 
 
 /*bg-color definitivi*/
@@ -124,6 +137,10 @@ a{
     background-color: #8ea1e1:
 }
 
+.bg-black{
+    background-color: black;
+}
+
 /*colori font*/
 .fontblu{
     color: #7187d8;
@@ -133,7 +150,28 @@ a{
     color: white;
 }
 
+.fontblack{
+    color: black;
+}
 
+/*style*/
+
+.par-sez1{
+  padding-left: 2%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+.intest-sez1{
+    text-align: center;
+    
+}
+
+.bg-image{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
 
 
 
