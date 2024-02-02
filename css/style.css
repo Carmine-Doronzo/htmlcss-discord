@@ -152,6 +152,10 @@ a{
     background-color: black;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 /*colori font*/
 .fontblu{
     color: #7187d8;
