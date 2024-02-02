@@ -24,8 +24,8 @@ a{
 
 /*layot*/
 .container{
-    max-width: 100%;
-    max-height: 1000px;
+    width: 1000px;
+    
 }
 
 .row{
@@ -64,9 +64,13 @@ a{
     justify-content: space-between;
 }
 
-.just-center{
+.text-center{
     
     text-align: center;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .just-around{
@@ -119,6 +123,13 @@ a{
     margin: 2% 0%;
 }
 
+/*BONUS*/
+.bg-imagebonus{
+    background-image: url("../img/wave.svg");
+    background-position: top;
+    background-size: cover;
+    background-image: inherit;
+}
 
 /*bg-color definitivi*/
 .bg-bludis{
