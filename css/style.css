@@ -1,0 +1,203 @@
+/* regole di reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,ol,menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*layot*/
+.container{
+    max-width: 1000px;
+}
+
+.row{
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    min-width: 60%;
+    justify-content: center;
+    
+}
+
+.column-nav{
+    
+    min-width: 10%;
+}
+
+.column-main{
+    height: 100px;
+    width: 100px;
+}
+
+.column-foot{
+    min-width: 5px;
+}
+
+.link{
+
+}
+
+
+/*utility*/
+.just{
+    justify-content: space-between;
+}
+
+.just-around{
+    justify-content: space-around;
+}
+
+.fd-row{
+    display: flex;
+    flex-direction:row ;
+}
+
+.col{
+    flex-direction: column;
+}
+
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.grow{
+    flex-grow: 1;
+}
+.height{
+    height: 400px;
+    width: 400px;
+}
+
+.marg{
+    margin-bottom: 20px;
+}
+
+.bord{
+    border-top: 2px  solid white;
+    border-bottom: 2px  solid white;
+}
+
+.gap{
+    gap: 10px;
+}
+
+
+
+
+/*bg-color definitivi*/
+.bg-bludis{
+    background-color: #3161e0;
+}
+
+.bg-greydis{
+    background-color: #f6f6f6;
+}
+
+.bg-greydisfoot{
+    background-color: #23272a;
+}
+
+.bg-bludown{
+    background-color: #8ea1e1:
+}
+
+/*colori font*/
+.fontblu{
+    color: #7187d8;
+}
+
+.fontwhite{
+    color: white;
+}
+
+
+
+
+
+
+
+/*debug*/
+.debug .container{
+    padding: 5px;
+    margin:0 auto;
+}
+
+
+.debug .row{
+    
+    border: 2px solid green ;
+
+}
+
+.debug .column-nav{
+    padding: 10px;
+    border: 2px solid yellow;
+    text-align: center;
+    color: white;
+}
+
+.debug .column-main{
+    border: 3px solid yellowgreen;
+
+}
+
+.debug .column-foot{
+    border: 3px solid brown;
+
+}
+
+.debug .bg-acqua{
+    background-color:aquamarine;
+}
+
+.debug .bg-blue{
+    background-color: blue;
+}
+
+.debug .bg-orange{
+    background-color: orange;
+}
+
+.debug .bg-magenta{
+    background-color: magenta;
+}
+
+.debug .bg-white{
+    background-color: white;
+}
+
+.debug .bg-azure{
+    background-color: rgb(105, 229, 229);
+}
+
+.debug .bg-pink{
+    background-color: pink;
+}
+
+.debug .bg-grey{
+    background-color: gray;
+}
+
+.debug .bg-green{
+    background-color: green;
+}
+
+.debug .bg-black{
+    background-color: black;
+}
+
