@@ -177,6 +177,10 @@ a{
     background-color: white;
 }
 
+.bg-bonus{
+    filter: invert(97%) sepia(2%) saturate(100%) hue-rotate(348deg) brightness(0%) contrast(93%); ;
+}
+
 /*colori font*/
 .fontblu{
     color: #7187d8;
