@@ -24,8 +24,9 @@ a{
 
 /*layot*/
 .container{
-    min-width: 100%;
-    min-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    
     
 }
 
@@ -33,7 +34,7 @@ a{
     margin: auto;
     display: flex;
     flex-direction:row;
-    min-width: 60%;
+    max-width: 70%;
     justify-content: center;
     
 }
@@ -43,9 +44,14 @@ a{
     min-width: 10%;
 }
 
-.column-main{
+.column-main66{
     
-    min-width: 10%;
+    width:calc (2*100% / 3);
+}
+
+.column-main33{
+
+    width:calc (100% / 3) ;
 }
 
 .column-foot{
@@ -53,8 +59,8 @@ a{
 }
 
 .login{
-    border: 1px solid white;
-    border-radius: 35%;
+    border: 1px solid ;
+    border-radius: 23px;
 
 
 }
@@ -110,14 +116,27 @@ a{
 }
 
 .gap{
-    gap: 10px;
+    gap: 20px;
 }
 .padd{
     padding: 10px;
 }
 
+.padd-top{
+    padding-top: 20px;
+
+}
+
+.padd-bottom{
+    padding-bottom: 40px;
+}
+
 .marg-left{
-    margin: 0% 5%;
+    margin-left: 15%;
+}
+
+.marg-right{
+    margin-right: 15%;
 }
 
 .marg-top{
@@ -128,7 +147,8 @@ a{
 .bg-imagebonus{
     background-image: url("../img/wave.svg");
     background-position: top;
-    background-size: cover;
+    background-repeat: no-repeat;
+    fill: currentColor !important;
     background-image: inherit;
 }
 
@@ -146,7 +166,7 @@ a{
 }
 
 .bg-bludown{
-    background-color: #8ea1e1:
+    background-color: #8ea1e1;
 }
 
 .bg-black{
@@ -191,6 +211,7 @@ a{
 
 .bg-star{
     background-image: url("../img/stars.svg");
+    background-position: center;
 }
 
 
