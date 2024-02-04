@@ -176,9 +176,17 @@ a{
 .bg-white{
     background-color: white;
 }
+/* BONUS */
+.bg-bonusgrey{
+    filter: brightness(0) saturate(100%) invert(97%) sepia(2%) saturate(795%) hue-rotate(348deg) brightness(115%) contrast(93%); 
+}
 
-.bg-bonus{
-    filter: invert(97%) sepia(2%) saturate(100%) hue-rotate(348deg) brightness(0%) contrast(93%); ;
+.bg-bonuswhite{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(7484%) hue-rotate(180deg) brightness(100%) contrast(111%);
+}
+
+.marg-negative{
+    margin-bottom: -5px;
 }
 
 /*colori font*/
