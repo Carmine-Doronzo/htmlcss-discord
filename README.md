@@ -1,0 +1,1 @@
+Continuo dell'esercizio precedente htmlcss-struttura-discord in cui rimuovo le regole di debug e inserisco il CSS imparato fino a quel momento.
